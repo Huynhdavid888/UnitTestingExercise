@@ -9,14 +9,29 @@ namespace UnitTestingExercise
 
 
         // Create an Add method that passes 3 integers
-
+        public int Add(int a , int b, int c)
+        {
+            return  a + b + c;
+            
+        }
         // Create a Subtract method that passes 2 integers
             // Keep track of which number is getting passed as minuend and subtrahend
-
+        public int Subtract(int a, int b)
+        {
+           return a - b;
+           
+        }
         // Create a Multiply method that passes 2 integers
-
+        public int Multiply(int a, int b)
+        {
+            return a * b;
+           
+        }
         // Create a Divide method that passes 2 integers
-
+        public int Divide(int a, int b)
+        {
+            return a / b;
+        }
 
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
